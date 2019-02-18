@@ -1,5 +1,9 @@
 #include <stdio.h>
 
+/*
+编写函数strindex(s, t)， 它返回字符串t在s中最右边出现的位置。
+如果s中不包含t，则返回-1.
+*/
 int strindex(char s[], char t[]) {
   int ns, nt;
   int i, j, k;
